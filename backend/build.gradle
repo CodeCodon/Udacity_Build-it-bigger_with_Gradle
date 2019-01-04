@@ -22,11 +22,8 @@ apply plugin: 'com.google.cloud.tools.endpoints-framework-server'
 
 
 appengine {  // App Engine tasks configuration
-    tools.cloudSdkHome = "C:/Users/shola/google-cloud-sdk"
     run {      // local (dev_appserver) configuration (standard environments only)
         startSuccessTimeout = 160
-
-
         port = 8080            // default
     }
 }
