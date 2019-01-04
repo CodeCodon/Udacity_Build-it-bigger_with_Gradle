@@ -2,7 +2,10 @@ package com.uproject.shola.myjavalibrary;
 
 public class JokeSupply {
     private static String[] jokes = {
-
+            "I predict that AI will predict a Happy New Year for you",
+            "Why is beer never served at a math party? " + "\n" + "Because you can't drink and derive.",
+            "What do you get if you divide the circumference of a jack-o-lantern by its diameter?" + "\n" + "Pumpkin Pi",
+            "What is a bird's favorite type of math? " + "\n" + "Owl-gebra"
     };
 
     /**
