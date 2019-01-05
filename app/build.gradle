@@ -69,5 +69,5 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
     compile project(":myandroidjokelibrary")
-    compile project(":MyJavaLibrary")
+   // compile project(":MyJavaLibrary")
 }
