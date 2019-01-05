@@ -21,6 +21,8 @@ package="com.udacity.gradle.builditbigger" >
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
+    <!-- Include required activity for the main source set -->
+
 </application>
 
 </manifest>
