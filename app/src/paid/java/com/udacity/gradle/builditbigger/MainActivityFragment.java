@@ -58,7 +58,7 @@ public class MainActivityFragment extends Fragment {
         if (!testIndicator) {
             Context context = getActivity();
             Intent intent = new Intent(context, JokeServerActivity.class);
-            intent.putExtra(context.getString(R.string.the_joke), fetchJoke);
+            intent.putExtra(JokeServerActivity.EXTRAS_JOKE, fetchJoke);
             //Toast.makeText(context, fetchJoke, Toast.LENGTH_LONG).show();
             context.startActivity(intent);
             progressBar.setVisibility(View.GONE);

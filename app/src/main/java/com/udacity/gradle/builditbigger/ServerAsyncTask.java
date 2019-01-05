@@ -56,10 +56,10 @@ import java.io.IOException;
 
     @Override
     protected void onPostExecute(String result) {
-
-        mainActivityFragment.fetchJoke = result;
-        mainActivityFragment.launchDisplayJokeActivity();
-
+        if (result != null) {
+            mainActivityFragment.fetchJoke = result;
+            mainActivityFragment.launchDisplayJokeActivity();
+        }
 
     }
 }
