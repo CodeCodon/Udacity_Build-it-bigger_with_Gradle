@@ -50,7 +50,7 @@ import java.io.IOException;
         try {
             return myApiService.sayHi().execute().getData();
         } catch (IOException e) {
-            return e.getMessage();
+            return null;
         }
     }
 
@@ -59,6 +59,7 @@ import java.io.IOException;
 
         mainActivityFragment.fetchJoke = result;
         mainActivityFragment.launchDisplayJokeActivity();
+
 
     }
 }
